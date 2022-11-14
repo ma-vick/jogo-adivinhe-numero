@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(196, 120, 255);
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    margin: 50px;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.300);
+}
+
+main {
+    padding: 20px;
+    max-width: 450px;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    line-height: 1.8em;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    padding: 8px;
+    border-radius: 12px;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid 1px blueviolet;
+    border-radius: 20px;
+}
+
+button {
+    background-color: white;
+    border: none;
+    color: blueviolet;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.294);
+    border-radius: 20px;
+    padding: 8px;
+    width: 175px;
+    margin-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    transition: 300ms;
+}
+
+button:hover {
+    background-color: rgb(103, 5, 195);
+    color: white;
+}
+
+.enviarPalpite {
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 8px;
+    width: 175px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    transition: 300ms;
+}
+
+.enviarPalpite:hover {
+    background-color: rgb(88, 2, 168);
+}
